@@ -106,14 +106,15 @@ public class NewCustomCuiLianPro extends JavaPlugin {
         public Material type;
         public MaterialData mData;
 
-        public ItemType(String typeInBag, String baseType) {
+        @SuppressWarnings("deprecation")
+		public ItemType(String typeInBag, String baseType) {
             this.typeInBag = typeInBag;
             this.baseType = baseType;
             if (baseType.contains(":")) {
                 String[] args = baseType.split(":");
                 String strType = args[0];
                 String strData = args[1];
-                type = MathUtil.isNumeric(strType) ? Material.getMaterial(Integer.parseInt(strType)) : Material.getMaterial(strType);
+                type = Material.getMaterial(strType);
                 int data = Integer.parseInt(strData);
                 mData = new MaterialData(type, (byte) data);
             } else {

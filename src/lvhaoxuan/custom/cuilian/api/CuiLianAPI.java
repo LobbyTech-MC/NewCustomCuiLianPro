@@ -204,13 +204,13 @@ public class CuiLianAPI {
                 return "§f弓";
             case IRON_SWORD:
                 return "§f铁剑";
-            case WOOD_SWORD:
+            case WOODEN_SWORD:
                 return "§f木剑";
             case STONE_SWORD:
                 return "§f石剑";
             case DIAMOND_SWORD:
                 return "§f钻石剑";
-            case GOLD_SWORD:
+            case GOLDEN_SWORD:
                 return "§f金剑";
             case LEATHER_HELMET:
                 return "§f皮头盔";
@@ -244,13 +244,13 @@ public class CuiLianAPI {
                 return "§f钻石护腿";
             case DIAMOND_BOOTS:
                 return "§f钻石靴子";
-            case GOLD_HELMET:
+            case GOLDEN_HELMET:
                 return "§f金头盔";
-            case GOLD_CHESTPLATE:
+            case GOLDEN_CHESTPLATE:
                 return "§f金胸甲";
-            case GOLD_LEGGINGS:
+            case GOLDEN_LEGGINGS:
                 return "§f金护腿";
-            case GOLD_BOOTS:
+            case GOLDEN_BOOTS:
                 return "§f金靴子";
             default:
                 return type.name();
