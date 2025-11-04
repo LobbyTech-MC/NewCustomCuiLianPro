@@ -139,7 +139,12 @@
             <scope>system</scope>
             <systemPath>C:\Users\11877\Documents\GitHub\NewCustomCuiLianPro\lib\ChanLang 1.0.0.jar</systemPath>
         </dependency>
-        
+        <dependency>
+            <groupId>org.openjdk.nashorn</groupId>
+            <artifactId>nashorn-core</artifactId>
+            <version>15.3</version>
+            <scope>runtime</scope>
+        </dependency>
         
     </dependencies>
    

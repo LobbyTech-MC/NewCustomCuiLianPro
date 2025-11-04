@@ -138,7 +138,7 @@ public class Loader {
 
     public static ScriptEngine loadScript(File file) {
         if (file.exists()) {
-            ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
+        	ScriptEngine engine = new ScriptEngineManager().getEngineByName("JavaScript");
             try {
                 engine.eval(FileUtil.read(file));
             } catch (ScriptException ex) {
